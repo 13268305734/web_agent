@@ -1,0 +1,15 @@
+{
+  "package": "web_agent_stage3a_fix2_overlay",
+  "created_at": "2026-05-14T15:50:33",
+  "files": [
+    "README_STAGE3A_FIX2.md",
+    "eval/tasks_stage3a.yaml",
+    "examples/demo_mock_llm_planner.py"
+  ],
+  "fixes": [
+    "Add eval/tasks_stage3a.yaml with success condition matching mock search flow",
+    "Change demo default tasks path and task id to stage3a validation task",
+    "Use microsecond-level timestamp and unique trace directories",
+    "Include mock_mode in trace directory name"
+  ]
+}

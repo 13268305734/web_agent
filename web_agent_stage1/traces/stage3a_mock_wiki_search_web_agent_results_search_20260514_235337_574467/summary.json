@@ -1,0 +1,10 @@
+{
+  "task_id": "wiki_search_web_agent_results",
+  "instruction": "Search for Web agent on Wikipedia and reach the search results page.",
+  "success": true,
+  "total_steps": 4,
+  "trace_dir": "traces\\stage3a_mock_wiki_search_web_agent_results_search_20260514_235337_574467",
+  "events_path": "traces\\stage3a_mock_wiki_search_web_agent_results_search_20260514_235337_574467\\events.jsonl",
+  "failure_reason": "",
+  "mock_mode": "search"
+}

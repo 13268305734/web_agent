@@ -1,0 +1,13 @@
+{
+  "package": "web_agent_stage3a_fix_overlay",
+  "created_at": "2026-05-14T15:44:56",
+  "files": [
+    "README_STAGE3A_FIX.md",
+    "examples/demo_mock_llm_planner.py",
+    "web_agent/models/mock_client.py"
+  ],
+  "fixes": [
+    "MockModelClient only parses actions from # Recent History block",
+    "demo_mock_llm_planner stops immediately on explicit open_url failure"
+  ]
+}

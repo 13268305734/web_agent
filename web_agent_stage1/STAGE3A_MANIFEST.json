@@ -1,0 +1,16 @@
+{
+  "package": "web_agent_stage3a_overlay",
+  "created_at": "2026-05-14T15:13:29",
+  "description": "Stage 3A overlay: MockModelClient + PromptBuilder + JSONParser + LLMPlanner",
+  "files": [
+    "README_STAGE3A.md",
+    "examples/demo_json_parser.py",
+    "examples/demo_mock_llm_planner.py",
+    "web_agent/agent/llm_planner.py",
+    "web_agent/models/__init__.py",
+    "web_agent/models/base.py",
+    "web_agent/models/json_parser.py",
+    "web_agent/models/mock_client.py",
+    "web_agent/models/prompt_builder.py"
+  ]
+}

@@ -1,0 +1,26 @@
+- id: wiki_search_web_agent_results
+  site: wikipedia
+  url: "https://www.wikipedia.org/"
+  instruction: "Search for Web agent on Wikipedia and reach the search results page."
+  success_condition:
+    type: "url_contains"
+    value: "search=Web+agent"
+  max_steps: 12
+
+- id: wiki_search_playwright_results
+  site: wikipedia
+  url: "https://www.wikipedia.org/"
+  instruction: "Search for Playwright on Wikipedia and reach the search result or article page."
+  success_condition:
+    type: "url_contains"
+    value: "Playwright"
+  max_steps: 12
+
+- id: wiki_search_selenium_results
+  site: wikipedia
+  url: "https://www.wikipedia.org/"
+  instruction: "Search for Selenium on Wikipedia and reach the search result or article page."
+  success_condition:
+    type: "url_contains"
+    value: "Selenium"
+  max_steps: 12
