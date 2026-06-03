@@ -1,0 +1,13 @@
+input_mode,task_id,runs,success,failed,success_rate,avg_steps_all,avg_steps_success,main_failure_reason
+dom-only,github_search_playwright,5,5,0,1.0,5.0,5.0,
+dom-only,github_search_qwen_vl,5,5,0,1.0,5.0,5.0,
+dom-only,github_search_web_agent,5,5,0,1.0,4.0,4.0,
+dom-only,wiki_search_playwright,5,5,0,1.0,4.0,4.0,
+dom-only,wiki_search_selenium,5,5,0,1.0,3.2,3.2,
+dom-only,wiki_search_web_agent,6,6,0,1.0,4.0,4.0,
+screenshot+dom,github_search_playwright,10,10,0,1.0,4.0,4.0,
+screenshot+dom,github_search_qwen_vl,10,10,0,1.0,4.0,4.0,
+screenshot+dom,github_search_web_agent,10,10,0,1.0,4.0,4.0,
+screenshot+dom,wiki_search_playwright,10,10,0,1.0,4.0,4.0,
+screenshot+dom,wiki_search_selenium,10,10,0,1.0,3.2,3.2,
+screenshot+dom,wiki_search_web_agent_results,10,10,0,1.0,4.0,4.0,

@@ -1,0 +1,10 @@
+{
+  "task_id": "github_search_qwen_vl",
+  "instruction": "Search GitHub for qwen vl and open the repositories result page.",
+  "success": true,
+  "total_steps": 5,
+  "trace_dir": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_163133_934511",
+  "events_path": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_163133_934511/events.jsonl",
+  "failure_reason": "",
+  "model": "/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct"
+}

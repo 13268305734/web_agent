@@ -1,0 +1,28 @@
+- id: wiki_search_web_agent_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: 'On Wikipedia homepage, complete this exact sequence: first click the
+    search input, then type Web agent, then press Enter. Stop when the URL contains
+    Web_agent.'
+  success_condition:
+    type: url_contains
+    value: Web_agent
+  max_steps: 8
+- id: wiki_search_playwright_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Playwright on Wikipedia and reach the search result or article
+    page.
+  success_condition:
+    type: url_contains
+    value: Playwright
+  max_steps: 12
+- id: wiki_search_selenium_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Selenium on Wikipedia and reach the search result or article
+    page.
+  success_condition:
+    type: url_contains
+    value: Selenium
+  max_steps: 12

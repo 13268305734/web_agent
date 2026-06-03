@@ -1,0 +1,61 @@
+task_id,success,total_steps,failure_reason,model,trace_dir,num_plan_steps,action_sequence
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145259_148045,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145356_135456,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145456_309497,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145556_502677,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145657_173548,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145757_036411,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145858_418419,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_145958_115050,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_150057_942009,3,click -> type -> press
+github_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_playwright_search_20260602_150157_813041,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151255_108160,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151357_490549,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151456_894558,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151557_776145,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151657_709323,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151757_754742,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_151857_460803,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_152000_050763,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_152058_702286,3,click -> type -> press
+github_search_qwen_vl,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_qwen_vl_search_20260602_152200_356973,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150258_637066,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150358_649302,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150458_968852,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150559_125227,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150658_968021,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150758_122070,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150856_940244,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_150957_224805,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_151058_238846,3,click -> type -> press
+github_search_web_agent,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_151156_441678,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144342_966365,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144413_433597,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144443_042338,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144513_214380,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144543_158818,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144612_798548,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144642_324772,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144712_183211,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144742_415550,3,click -> type -> press
+wiki_search_playwright,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_playwright_search_20260602_144812_677448,3,click -> type -> press
+wiki_search_selenium,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_144842_574740,3,click -> type -> press
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_144926_847586,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_144947_466046,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145009_312590,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145029_962474,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145050_916619,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145112_551746,2,click -> type
+wiki_search_selenium,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145133_326603,3,click -> type -> press
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145217_288421,2,click -> type
+wiki_search_selenium,True,3,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_145238_304140,2,click -> type
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_143926_758449,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_143952_451809,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144018_453202,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144044_630429,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144110_545831,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144135_759080,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144201_136130,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144226_912523,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144252_075587,3,click -> type -> press
+wiki_search_web_agent_results,True,4,,/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct,traces/qwen25vl_batch/stage3b1_local_llm_wiki_search_web_agent_results_search_20260602_144317_404704,3,click -> type -> press

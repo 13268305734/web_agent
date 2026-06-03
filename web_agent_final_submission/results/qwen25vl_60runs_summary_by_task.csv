@@ -1,0 +1,7 @@
+task_id,runs,success,failed,success_rate,avg_steps_all,avg_steps_success,main_failure_reason
+github_search_playwright,10,10,0,1.0,4.0,4.0,
+github_search_qwen_vl,10,10,0,1.0,4.0,4.0,
+github_search_web_agent,10,10,0,1.0,4.0,4.0,
+wiki_search_playwright,10,10,0,1.0,4.0,4.0,
+wiki_search_selenium,10,10,0,1.0,3.2,3.2,
+wiki_search_web_agent_results,10,10,0,1.0,4.0,4.0,

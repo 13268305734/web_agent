@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Baidu Qwen search",
+    "task": "在百度搜索 Qwen2.5-VL，并打开第一个可信结果",
+    "expected_behavior": "Open Baidu search results, click the first result, scroll the page, save screenshots."
+  },
+  {
+    "name": "Wikipedia WebAgent summary",
+    "task": "去 Wikipedia 搜索 WebAgent，并打开相关页面总结第一段",
+    "expected_behavior": "Open Wikipedia search results, click a result, extract the first readable paragraph."
+  },
+  {
+    "name": "Playwright docs locator",
+    "task": "去 Playwright 官网搜索 locator 文档",
+    "expected_behavior": "Use a search engine constrained to playwright.dev/docs, open a relevant docs result."
+  }
+]

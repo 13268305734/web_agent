@@ -1,0 +1,10 @@
+{
+  "task_id": "wiki_search_web_agent",
+  "instruction": "On English Wikipedia, search for the exact query 'Web agent' and open the article page for Web agent.",
+  "success": true,
+  "total_steps": 4,
+  "trace_dir": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_wiki_search_web_agent_search_20260602_160725_961590",
+  "events_path": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_wiki_search_web_agent_search_20260602_160725_961590/events.jsonl",
+  "failure_reason": "",
+  "model": "/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct"
+}

@@ -1,0 +1,25 @@
+Model: Qwen2.5-VL-7B-Instruct
+Model path: /data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct
+
+Main experiment:
+- screenshot + DOM
+- trace root: traces/qwen25vl_batch
+
+Control experiment:
+- DOM-only
+- trace root: traces/qwen25vl_dom_only_batch
+
+Tasks:
+- wiki_search_web_agent
+- wiki_search_playwright
+- wiki_search_selenium
+- github_search_playwright
+- github_search_web_agent
+- github_search_qwen_vl
+
+Common parameters:
+- max_steps=12
+- max_new_tokens=128
+- max_dom_chars=3000
+- max_elements=20
+- post_action_sleep=1

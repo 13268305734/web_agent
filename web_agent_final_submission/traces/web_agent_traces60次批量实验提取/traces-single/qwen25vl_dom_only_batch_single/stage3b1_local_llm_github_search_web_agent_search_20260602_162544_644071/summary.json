@@ -1,0 +1,10 @@
+{
+  "task_id": "github_search_web_agent",
+  "instruction": "Search GitHub for web agent and open the repositories result page.",
+  "success": true,
+  "total_steps": 4,
+  "trace_dir": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_162544_644071",
+  "events_path": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_github_search_web_agent_search_20260602_162544_644071/events.jsonl",
+  "failure_reason": "",
+  "model": "/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct"
+}

@@ -1,0 +1,110 @@
+from __future__ import annotations
+
+from typing import Optional, Sequence
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+try:
+    from web_agent.models.base import BaseModelClient
+except Exception:
+    class BaseModelClient:
+        pass
+
+
+class LocalHFModelClient(BaseModelClient):
+    """
+    Local HuggingFace causal LLM client.
+
+    Stage 3B1 uses text-only inputs:
+    task instruction + URL + DOM text + clickable elements + history.
+    It does not use screenshots yet.
+    """
+
+    def __init__(
+        self,
+        model_name: str = "Qwen/Qwen2.5-3B-Instruct",
+        max_new_tokens: int = 256,
+        temperature: float = 0.0,
+        do_sample: bool = False,
+        trust_remote_code: bool = True,
+    ):
+        self.model_name = model_name
+        self.max_new_tokens = max_new_tokens
+        self.temperature = temperature
+        self.do_sample = do_sample
+        self.trust_remote_code = trust_remote_code
+
+        print(f"[LocalHFModelClient] Loading tokenizer: {model_name}")
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_name,
+            trust_remote_code=trust_remote_code,
+        )
+
+        print(f"[LocalHFModelClient] Loading model: {model_name}")
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype="auto",
+            device_map="auto",
+            trust_remote_code=trust_remote_code,
+        )
+        self.model.eval()
+
+        print("[LocalHFModelClient] Model loaded.")
+
+    def generate(self, prompt: str, images: Optional[Sequence[str]] = None) -> str:
+        if images:
+            # Stage 3B1 is text-only. Images are ignored for now.
+            prompt = (
+                prompt
+                + "\n\nNote: screenshots are not supported by this text-only model. "
+                  "Use the DOM and clickable element list."
+            )
+
+        messages = [
+            {
+                "role": "system",
+                "content": (
+                    "You are a web navigation agent. "
+                    "You must output exactly one JSON object and no extra text. "
+                    "Do not wrap the JSON in markdown."
+                ),
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ]
+
+        if hasattr(self.tokenizer, "apply_chat_template"):
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+        else:
+            text = (
+                "System: " + messages[0]["content"]
+                + "\nUser: " + messages[1]["content"]
+                + "\nAssistant:"
+            )
+
+        inputs = self.tokenizer([text], return_tensors="pt").to(self.model.device)
+
+        generation_kwargs = {
+            "max_new_tokens": self.max_new_tokens,
+            "do_sample": self.do_sample,
+        }
+
+        if self.do_sample:
+            generation_kwargs["temperature"] = self.temperature
+
+        with torch.no_grad():
+            outputs = self.model.generate(
+                **inputs,
+                **generation_kwargs,
+            )
+
+        generated = outputs[0][inputs.input_ids.shape[-1]:]
+        response = self.tokenizer.decode(generated, skip_special_tokens=True).strip()
+        return response

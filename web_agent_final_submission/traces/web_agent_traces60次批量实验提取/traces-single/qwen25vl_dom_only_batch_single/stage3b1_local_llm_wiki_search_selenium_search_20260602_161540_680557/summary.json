@@ -1,0 +1,10 @@
+{
+  "task_id": "wiki_search_selenium",
+  "instruction": "Search for Selenium software on Wikipedia and open the result page.",
+  "success": true,
+  "total_steps": 3,
+  "trace_dir": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_161540_680557",
+  "events_path": "traces/qwen25vl_dom_only_batch/stage3b1_local_llm_wiki_search_selenium_search_20260602_161540_680557/events.jsonl",
+  "failure_reason": "",
+  "model": "/data1/xiangkun/MODELS/Qwen2.5-VL-7B-Instruct"
+}

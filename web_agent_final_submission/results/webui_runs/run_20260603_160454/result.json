@@ -1,0 +1,46 @@
+{
+  "task": "去 Wikipedia 搜索 WebAgent，并打开相关页面总结第一段",
+  "mode": "browser_demo_fallback",
+  "ok": true,
+  "run_dir": "results\\webui_runs\\run_20260603_160454",
+  "final_url": "https://en.wikipedia.org/wiki/Web_browser",
+  "final_answer": "已完成搜索并打开页面。页面首段/主要内容摘要：\n\nJump to content Main menu Search Donate Create account Log in Edit with pride and win! Participate in Wiki Loves Pride 2026 Contents hide (Top) Function History Features Browser market Toggle Browser market subsection Market share by type of device Security Toggle Security subsection Privacy See also References External links Web browser 145 languages Article Talk Read View source View history Tools Appearance hide Text Small Standard Large Width Standard Wide Color Automatic Light Dark From Wikipedia, the free encyclopedia A web browser (Safari) displaying the Wikipedia web page A web browser, often abbreviated as browser, is an application for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers can also display content stored locally on the user's devic",
+  "steps": [
+    {
+      "step": 1,
+      "action": "open/search",
+      "detail": "打开搜索页：wikipedia；关键词：WebAgent",
+      "url": "https://en.wikipedia.org/wiki/Special:Search?search=WebAgent&ns0=1",
+      "screenshot": "results\\webui_runs\\run_20260603_160454\\step_01.png",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "step": 2,
+      "action": "click",
+      "detail": "打开第一个搜索结果",
+      "url": "https://en.wikipedia.org/wiki/Web_browser",
+      "screenshot": "results\\webui_runs\\run_20260603_160454\\step_02.png",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "step": 3,
+      "action": "scroll",
+      "detail": "向下滚动页面，展示页面内容",
+      "url": "https://en.wikipedia.org/wiki/Web_browser",
+      "screenshot": "results\\webui_runs\\run_20260603_160454\\step_03.png",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "step": 4,
+      "action": "finish",
+      "detail": "任务流程结束",
+      "url": "https://en.wikipedia.org/wiki/Web_browser",
+      "screenshot": "results\\webui_runs\\run_20260603_160454\\step_04.png",
+      "ok": true,
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+- id: wiki_search_web_agent
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Web agent on Wikipedia and reach the Web agent page.
+  search_query: Web agent
+  success_condition:
+    type: url_contains
+    value: Web_agent
+  max_steps: 12
+- id: wiki_search_playwright
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Playwright on Wikipedia and open the result page.
+  search_query: Playwright
+  success_condition:
+    type: url_contains
+    value: Playwright
+  max_steps: 12
+- id: wiki_search_selenium
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Selenium software on Wikipedia and open the result page.
+  search_query: Selenium software
+  success_condition:
+    type: text_contains
+    value: Selenium
+  max_steps: 12
+- id: github_search_playwright
+  site: github
+  url: https://github.com/
+  instruction: Search GitHub for playwright and open the repositories result page.
+  search_query: playwright
+  success_condition:
+    type: url_contains
+    value: search
+  max_steps: 15
+- id: github_search_web_agent
+  site: github
+  url: https://github.com/
+  instruction: Search GitHub for web agent and open the repositories result page.
+  search_query: web agent
+  success_condition:
+    type: url_contains
+    value: search
+  max_steps: 15
+- id: github_search_qwen_vl
+  site: github
+  url: https://github.com/
+  instruction: Search GitHub for qwen vl and open the repositories result page.
+  search_query: qwen vl
+  success_condition:
+    type: url_contains
+    value: search
+  max_steps: 15
+- id: wiki_search_web_agent_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: 'On Wikipedia homepage, complete this exact sequence: first click the
+    search input, then type Web agent, then press Enter. Stop when the URL contains
+    Web_agent.'
+  success_condition:
+    type: url_contains
+    value: Web_agent
+  max_steps: 8
+- id: wiki_search_playwright_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Playwright on Wikipedia and reach the search result or article
+    page.
+  success_condition:
+    type: url_contains
+    value: Playwright
+  max_steps: 12
+- id: wiki_search_selenium_results
+  site: wikipedia
+  url: https://www.wikipedia.org/
+  instruction: Search for Selenium on Wikipedia and reach the search result or article
+    page.
+  success_condition:
+    type: url_contains
+    value: Selenium
+  max_steps: 12

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.bak
+.venv/
+.conda/
+venv/
+*.zip
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
